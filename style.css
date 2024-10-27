@@ -1,0 +1,126 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #FFE28C;
+  color: #333;
+}
+
+/* Page title */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b83e3e;
+}
+
+/* Section titles */
+h2 {
+  font-size: 2em;
+  margin-top: 30px;
+  color: #b83e3e;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #b83e3e;
+}
+
+/* Image and caption styling */
+figure {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+figcaption {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* List styling */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Ordered list for directions */
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin: 10px 0;
+}
+
+/* Forms and input fields */
+form {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fefefe;
+  border: 2px solid #e67e22;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"], input[type="radio"], input[type="submit"] {
+  margin: 5px 0;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #b83e3e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a03535;
+}
+
+/* Fieldset and legend */
+fieldset {
+  border: 2px solid #e67e22;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+  color: #b83e3e;
+  font-size: 1.2em;
+}
