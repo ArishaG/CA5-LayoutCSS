@@ -1,58 +1,35 @@
-* {
-  box-sizing: border-box; /* Use the border-box model for all elements */
+/* Reset styles for all divs to remove borders */
+div {
+  border: none; /* Remove any borders */
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
+/* Example styling for your layout */
 .container {
+  display: flex;
+  flex-direction: column; /* Arrange rows vertically */
+}
+
+.header, .footer {
   width: 100%;
 }
 
-.header {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 20px;
-}
-
 .row {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space between columns */
-  padding: 10px;
+  display: flex; /* Arrange columns horizontally */
 }
 
 .column {
-  flex: 1; /* Each column takes equal space */
-  padding: 10px;
-  border: 1px solid #ccc; /* Visible borders for development */
+  flex: 1; /* Equal width for each column */
+  padding: 10px; /* Add padding for spacing */
+  /* Optional: To add some background color or other styles */
 }
 
-.links {
-  background-color: #e7f3fe;
-}
-
-.image-content {
-  text-align: center; /* Center the image */
-}
-
-.rating-conversion {
-  background-color: #fff3cd;
-}
-
-.ingredients, .equipment, .directions {
-  background-color: #d4edda;
+/* Specific styles for your header, footer, etc. */
+.header {
+  background-color: #f8f9fa; /* Light background for the header */
 }
 
 .footer {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 10px;
+  background-color: #f8f9fa; /* Light background for the footer */
 }
 
-h2, h3 {
-  color: #333; /* Change the heading color */
-}
+/* Additional styles can go here */
